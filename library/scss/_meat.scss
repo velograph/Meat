@@ -1,0 +1,101 @@
+#inner-header,
+#contact {
+  ul {
+    list-style-type: none;
+  }
+}
+
+#inner-header,
+#footer_branding {
+  ul {
+    margin-bottom: .25rem;
+    li {
+      font-size: .8rem;
+    }
+  }
+  .address_and_hours, 
+  .phone_and_email {
+    text-align: center;
+  }
+  .address_and_hours  {
+    padding-top: 1.5rem;
+  }
+  .phone_and_email {
+    padding-top: 2rem;
+  }
+}
+
+.home_page_thumb {
+  padding: 0 5rem;
+}
+
+#content {
+  .food_brands {
+    text-align: center;
+    a:hover {
+      background: transparent;
+    }
+    img {
+      margin: .75rem 1.25rem 2rem;
+      width: 100px;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  p {
+    margin-top: 1rem;
+    font-size: .75rem;
+  }
+}
+
+.sticky.fixed {
+  .top-bar-section {
+    ul {
+      display: inline-block;
+    }
+  }
+  img {
+    max-width: 5rem;
+  }
+  .sticky_nav_logo {
+    display: inline;
+    margin-left: 1rem;
+    position: relative;
+    top: -20px;
+    img {
+      max-width: 3rem;
+    }
+  }
+}
+
+.sticky {
+  img {
+    max-width: 5rem;
+  }
+  .sticky_nav_logo {
+    display: none;
+  }
+}
+
+.meat_press {
+  img.launch_tab {
+    margin-left: .5rem;
+    max-width: 1.15rem;
+  }
+}
+
+// Facebook
+.fbf_facebook_page_widget {
+  a {
+    color: $secondary-color;
+  }
+  .fbf_desc {
+    color: #dadfe1;
+  }
+  .facebook_page-timestamp {
+    display: inline-block;
+    margin-bottom: .25rem;
+  }
+}

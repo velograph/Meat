@@ -8,7 +8,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title><?php wp_title(''); ?></title>
+		<title><?php bloginfo('name'); ?></title>
 
 		<!-- Google Chrome Frame for IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -45,16 +45,41 @@
 				<header class="header" role="banner">
 
 					<div id="inner-header" class="row">
-						<div class="large-12 columns">
-							<h1>
-								<a href="<?php echo home_url(); ?>" rel="nofollow">
-									<?php bloginfo('name'); ?>
-								</a>
-								<small>
-									<?php  bloginfo('description'); ?>
-								</small>
-							</h1>
-						</div>
+
+                                          <div class="show-for-medium-up row">
+
+                                            <div class="small-5 columns address_and_hours">
+
+                                              <ul>
+                                                <a href="/contact">
+                                                  <li><?php the_field('address', '11'); ?></li>
+                                                  <li><?php the_field('address_line_2', '11'); ?></li>
+                                                </a>
+                                              </ul>
+                                              <ul>
+                                                <li><?php the_field('hours', '11'); ?></li>
+                                                <li><?php the_field('hours_line_2', '11'); ?></li>
+                                              </ul>
+
+                                            </div>
+
+
+                                            <div class="small-2 columns">
+
+                                              <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/library/images/meat_logo.svg" alt="Meat for Cats and Dogs" /></a>
+                                            </div>
+
+                                            <div class="small-5 columns phone_and_email">
+
+                                              <ul>
+                                                <li>ph: <a href="tel:<?php the_field('phone', '11'); ?>"><?php the_field('phone', '11'); ?></a></li>
+                                                <li>fax: <?php the_field('fax', '11'); ?></li>
+                                                <li><a href="mailto:<?php the_field('email', '11'); ?>"><?php the_field('email', '11'); ?></a></li>
+                                              </ul>
+
+                                            </div>
+
+                                          </div>
 
 						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?>
 

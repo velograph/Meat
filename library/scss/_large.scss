@@ -11,7 +11,18 @@ Styles apply to 64.063em and up.
 GENERAL STYLES
 *********************/
 
-body {}
+body {
+  background-color: $body-bg;
+  background-image: url('../images/meat_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  #sidebar1 {
+    .widget {
+      background: rgba(255,255,255,.3);
+    }
+  }
+}
 
 /*********************
 LAYOUT & GRID STYLES

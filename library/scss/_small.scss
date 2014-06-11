@@ -12,7 +12,34 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
-body {}
+body {
+  .show-for-small-only {
+    .tab-bar, .contain-to-grid {
+      background: transparent;
+    }
+    .contain-to-grid {
+      border-bottom: 1px solid $body-font-color;
+      margin-bottom: 1rem;
+      padding-bottom: 4rem;
+    }
+    .left-small {
+      border-right: none !important;
+    }
+    .tab-bar-section {
+      img {
+        width: 100px;
+      }
+    }
+  }
+  .off-canvas-list {
+    .off-canvas-list-logo {
+      text-align: center;
+    }
+    img {
+      max-width: 100px;
+    }
+  }
+}
 
 /********************
 WORDPRESS BODY CLASSES
