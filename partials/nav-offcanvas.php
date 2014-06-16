@@ -21,7 +21,7 @@
 	</div>
 </div>
 
-<div class="large-12 columns show-for-small-only">
+<div class="small-12 columns show-for-small-only">
 	<div class="contain-to-grid">
 		<nav class="tab-bar">
 			<section class="middle tab-bar-section">
@@ -31,7 +31,24 @@
 				<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
 			</section>
 		</nav>
+                  
 	</div>
+</div>
+
+<div class="small-12 columns show-for-small-only">
+
+  <ul class="mobile_contact_section">
+    <li><a href="/contact"><?php the_field('address', '11'); ?></a></li>
+    <li><a href="/contact"><?php the_field('address_line_2', '11'); ?></a></li>
+    <li><?php the_field('hours', '11'); ?></li>
+    <li><?php the_field('hours_line_2', '11'); ?></li>
+  </ul>
+  <ul class="mobile_contact_section">
+    <li>ph: <a href="tel:<?php the_field('phone', '11'); ?>"><?php the_field('phone', '11'); ?></a></li>
+    <li>fax: <?php the_field('fax', '11'); ?></li>
+    <li><a href="mailto:<?php the_field('email', '11'); ?>"><?php the_field('email', '11'); ?></a></li>
+  </ul>
+
 </div>
 						
 <aside class="left-off-canvas-menu show-for-small-only">

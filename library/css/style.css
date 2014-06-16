@@ -1,4 +1,5 @@
 @import "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700";
+@import "//fonts.googleapis.com/css?family=Montserrat:400,700";
 /******************************************************************
 
 Stylesheet: Main Stylesheet
@@ -2157,8 +2158,8 @@ select {
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
-  background-color: #d81731;
-  border-color: #ba142a;
+  background-color: #a80d22;
+  border-color: #900b1d;
   color: white;
 }
 /* line 109, ../../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -3948,7 +3949,7 @@ select {
 .breadcrumbs > * a,
 .breadcrumbs > * span {
   text-transform: uppercase;
-  color: #d81731;
+  color: #a80d22;
 }
 /* line 75, ../../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
@@ -4012,8 +4013,8 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #d81731;
-  border-color: #ad1227;
+  background-color: #a80d22;
+  border-color: #860a1b;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
@@ -4027,7 +4028,7 @@ button, .button {
 }
 /* line 131, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #ad1227;
+  background-color: #860a1b;
 }
 /* line 142, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
@@ -4130,8 +4131,8 @@ button.round, .button.round {
 }
 /* line 209, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #d81731;
-  border-color: #ad1227;
+  background-color: #a80d22;
+  border-color: #860a1b;
   color: white;
   cursor: default;
   opacity: 0.7;
@@ -4140,7 +4141,7 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
 }
 /* line 131, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #ad1227;
+  background-color: #860a1b;
 }
 /* line 142, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -4148,7 +4149,7 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 155, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #d81731;
+  background-color: #a80d22;
 }
 /* line 210, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
@@ -5838,7 +5839,7 @@ kbd {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
-  background-color: #d81731;
+  background-color: #a80d22;
   color: white;
 }
 /* line 96, ../../bower_components/foundation/scss/foundation/components/_labels.scss */
@@ -6372,14 +6373,14 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
 }
 /* line 64, ../../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a {
-  background: #d81731;
+  background: #a80d22;
   color: white;
   font-weight: bold;
   cursor: default;
 }
 /* line 71, ../../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-  background: #d81731;
+  background: #a80d22;
 }
 /* line 124, ../../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li {
@@ -6433,10 +6434,10 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #f8bfc7;
+  border-color: #fabbc3;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #fdf0f2;
+  background: #feedef;
 }
 /* line 52, ../../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout > :first-child {
@@ -6461,7 +6462,7 @@ ul.pagination li {
 }
 /* line 78, ../../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout a:not(.button) {
-  color: #d81731;
+  color: #a80d22;
 }
 /* line 83, ../../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.radius {
@@ -6540,7 +6541,7 @@ ul.pagination li {
 }
 /* line 61, ../../bower_components/foundation/scss/foundation/components/_progress-bars.scss */
 .progress .meter {
-  background: #d81731;
+  background: #a80d22;
   height: 100%;
   display: block;
 }
@@ -6630,13 +6631,13 @@ ul.pagination li {
 }
 /* line 130, ../../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.radius .range-slider-handle {
-  background: #d81731;
+  background: #a80d22;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 99, ../../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.radius .range-slider-handle:hover {
-  background: #be142b;
+  background: #940b1e;
 }
 /* line 132, ../../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round {
@@ -6646,13 +6647,13 @@ ul.pagination li {
 }
 /* line 134, ../../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round .range-slider-handle {
-  background: #d81731;
+  background: #a80d22;
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 99, ../../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round .range-slider-handle:hover {
-  background: #be142b;
+  background: #940b1e;
 }
 
 /* line 137, ../../bower_components/foundation/scss/foundation/components/_range-slider.scss */
@@ -6673,11 +6674,11 @@ ul.pagination li {
   height: 1.375rem;
   border: 1px solid none;
   cursor: pointer;
-  background: #d81731;
+  background: #a80d22;
 }
 /* line 99, ../../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider-handle:hover {
-  background: #be142b;
+  background: #940b1e;
 }
 
 /* line 156, ../../bower_components/foundation/scss/foundation/components/_reveal.scss */
@@ -6853,15 +6854,15 @@ dialog[open] {
 /* line 66, ../../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button) {
   display: block;
-  color: #d81731;
+  color: #a80d22;
 }
 /* line 70, ../../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
-  color: #ed5468;
+  color: #ee2944;
 }
 /* line 73, ../../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
-  color: #ed5468;
+  color: #ee2944;
   font-weight: normal;
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -7058,7 +7059,7 @@ dialog[open] {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   font-weight: normal;
-  background: #d81731;
+  background: #a80d22;
   padding: 0.1875rem 1rem;
   cursor: default;
   color: white;
@@ -7067,7 +7068,7 @@ dialog[open] {
 .sub-nav dt.active a:hover,
 .sub-nav dd.active a:hover,
 .sub-nav li.active a:hover {
-  background: #ba142a;
+  background: #900b1d;
 }
 
 /* line 293, ../../bower_components/foundation/scss/foundation/components/_switch.scss */
@@ -7487,8 +7488,8 @@ table tfoot tr td {
 }
 /* line 54, ../../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(216, 23, 49, 0.5);
-  box-shadow: 0 0 6px 1px rgba(216, 23, 49, 0.5);
+  -webkit-box-shadow: 0 0 6px 1px rgba(168, 13, 34, 0.5);
+  box-shadow: 0 0 6px 1px rgba(168, 13, 34, 0.5);
 }
 /* line 71, ../../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -7506,8 +7507,8 @@ table tfoot tr td {
 }
 /* line 44, ../../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #610a16;
-  color: #d81731;
+  border-bottom: dotted 1px #4c060f;
+  color: #a80d22;
 }
 /* line 50, ../../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -7561,8 +7562,8 @@ table tfoot tr td {
 }
 /* line 93, ../../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  color: #d81731 !important;
-  border-bottom: dotted 1px #610a16 !important;
+  color: #a80d22 !important;
+  border-bottom: dotted 1px #4c060f !important;
 }
 
 /* line 99, ../../bower_components/foundation/scss/foundation/components/_tooltips.scss */
@@ -7810,22 +7811,22 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Open Sans", Arial, sans-serif;
-  font-size: 0.8125rem;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-size: 1rem;
   font-weight: normal;
   text-transform: none;
   background: #333333;
 }
 /* line 321, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: #d81731;
-  font-size: 0.8125rem;
+  background: #a80d22;
+  font-size: 1rem;
   padding-right: 15px;
   padding-left: 15px;
 }
 /* line 326, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
-  background: #9e1124;
+  background: #7b0919;
 }
 /* line 330, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
@@ -7858,12 +7859,12 @@ meta.foundation-mq-topbar {
 }
 /* line 359, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #d81731;
+  background: #a80d22;
   color: white;
 }
 /* line 362, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #ba142a;
+  background: #900b1d;
   color: white;
 }
 /* line 370, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -8056,11 +8057,11 @@ meta.foundation-mq-topbar {
     padding: 0 15px;
     line-height: 45px;
     color: white;
-    background: #d81731;
+    background: #a80d22;
   }
   /* line 509, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #ba142a;
+    background: #900b1d;
   }
   /* line 518, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
@@ -8176,7 +8177,7 @@ meta.foundation-mq-topbar {
   }
   /* line 630, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #d81731;
+    background: #a80d22;
     color: white;
   }
   /* line 638, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -8678,13 +8679,13 @@ td {
 /* Default Link Styles */
 /* line 287, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #d81731;
+  color: #a80d22;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 293, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #ba142a;
+  color: #900b1d;
 }
 /* line 295, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -8716,10 +8717,10 @@ p aside {
 /* Default header styles */
 /* line 317, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Montserrat", "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #ededed;
+  color: #dadfe1;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -8728,7 +8729,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 327, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #f3f3f3;
+  color: #e7eaeb;
   line-height: 0;
 }
 
@@ -8765,7 +8766,7 @@ h6 {
 /* line 341, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #f3f3f3;
+  color: #e7eaeb;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -8917,7 +8918,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #f1f1f1;
+  color: #e3e6e8;
 }
 /* line 466, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -8926,14 +8927,14 @@ blockquote cite:before {
 /* line 471, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #f1f1f1;
+  color: #e3e6e8;
 }
 
 /* line 477, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #f3f3f3;
+  color: #e7eaeb;
 }
 
 /* Microformats */
@@ -10235,116 +10236,244 @@ th.hide-for-touch {
   clear: both;
 }
 
-/* line 3, ../scss/_meat.scss */
-#inner-header ul,
-#contact ul {
+/* line 1, ../scss/_meat.scss */
+body {
+  background-color: #2e2925;
+  background-image: url("../images/meat_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* line 9, ../scss/_meat.scss */
+body #sidebar1 .widget .widgettitle {
+  font-family: 'Montserrat';
+}
+
+/* line 16, ../scss/_meat.scss */
+abbr {
+  cursor: default;
+}
+
+/* line 20, ../scss/_meat.scss */
+.left-off-canvas-menu {
+  text-align: center;
+}
+/* line 22, ../scss/_meat.scss */
+.left-off-canvas-menu a {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+/* line 28, ../scss/_meat.scss */
+.inner-wrap {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 32, ../scss/_meat.scss */
+.header_content {
+  padding: 1rem 0;
+}
+
+/* line 38, ../scss/_meat.scss */
+#contact ul,
+.contact_links ul {
   list-style-type: none;
 }
 
-/* line 10, ../scss/_meat.scss */
+/* line 43, ../scss/_meat.scss */
+.contact_links {
+  margin: 2rem 0;
+}
+/* line 45, ../scss/_meat.scss */
+.contact_links ul {
+  margin: 0;
+}
+
+/* line 52, ../scss/_meat.scss */
 #inner-header ul,
 #footer_branding ul {
+  list-style-type: none;
   margin-bottom: .25rem;
 }
-/* line 12, ../scss/_meat.scss */
+/* line 55, ../scss/_meat.scss */
 #inner-header ul li,
 #footer_branding ul li {
   font-size: .8rem;
 }
-/* line 17, ../scss/_meat.scss */
+/* line 60, ../scss/_meat.scss */
 #inner-header .address_and_hours,
 #inner-header .phone_and_email,
 #footer_branding .address_and_hours,
 #footer_branding .phone_and_email {
   text-align: center;
 }
-/* line 20, ../scss/_meat.scss */
+/* line 63, ../scss/_meat.scss */
 #inner-header .address_and_hours,
 #footer_branding .address_and_hours {
   padding-top: 1.5rem;
 }
-/* line 23, ../scss/_meat.scss */
+/* line 66, ../scss/_meat.scss */
 #inner-header .phone_and_email,
 #footer_branding .phone_and_email {
   padding-top: 2rem;
 }
 
-/* line 28, ../scss/_meat.scss */
-.home_page_thumb {
-  padding: 0 5rem;
+/* line 71, ../scss/_meat.scss */
+.home_page_gallery {
+  margin-bottom: 2rem;
 }
 
-/* line 33, ../scss/_meat.scss */
-#content .food_brands {
-  text-align: center;
-}
-/* line 35, ../scss/_meat.scss */
-#content .food_brands a:hover {
-  background: transparent;
-}
-/* line 38, ../scss/_meat.scss */
-#content .food_brands img {
-  margin: .75rem 1.25rem 2rem;
-  width: 100px;
+/* line 75, ../scss/_meat.scss */
+.inline_meat {
+  background-image: url("../images/meat_inline_logo.svg");
+  background-repeat: no-repeat;
+  color: transparent;
+  display: inline;
+  vertical-align: baseline;
 }
 
-/* line 45, ../scss/_meat.scss */
+/* line 86, ../scss/_meat.scss */
+.page-food #content .raw_food,
+.page-food #content .dry_food {
+  margin-bottom: 2rem;
+}
+/* line 90, ../scss/_meat.scss */
+.page-food #content .food_brands ul {
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+/* line 94, ../scss/_meat.scss */
+.page-food #content .food_brands ul li {
+  display: block;
+  padding-left: 1rem;
+}
+
+/* line 103, ../scss/_meat.scss */
+.supporter_list {
+  margin-top: 2rem;
+}
+/* line 105, ../scss/_meat.scss */
+.supporter_list h3 {
+  margin-bottom: 1rem;
+}
+/* line 108, ../scss/_meat.scss */
+.supporter_list .supporter {
+  font-size: .65rem;
+  margin: 0 0 1rem;
+}
+
+/* line 114, ../scss/_meat.scss */
 .footer {
   text-align: center;
 }
-/* line 47, ../scss/_meat.scss */
+/* line 116, ../scss/_meat.scss */
 .footer p {
   margin-top: 1rem;
   font-size: .75rem;
 }
 
-/* line 55, ../scss/_meat.scss */
+/* line 124, ../scss/_meat.scss */
+.sticky.fixed .top-bar,
+.sticky .top-bar {
+  background: rgba(135, 16, 32, 0.95);
+}
+
+/* line 131, ../scss/_meat.scss */
 .sticky.fixed .top-bar-section ul {
+  background: transparent;
   display: inline-block;
 }
-/* line 59, ../scss/_meat.scss */
+/* line 135, ../scss/_meat.scss */
+.sticky.fixed .top-bar-section ul li a {
+  background: transparent;
+}
+/* line 141, ../scss/_meat.scss */
 .sticky.fixed img {
   max-width: 5rem;
 }
-/* line 62, ../scss/_meat.scss */
+/* line 144, ../scss/_meat.scss */
 .sticky.fixed .sticky_nav_logo {
   display: inline;
   margin-left: 1rem;
   position: relative;
   top: -20px;
 }
-/* line 67, ../scss/_meat.scss */
+/* line 149, ../scss/_meat.scss */
 .sticky.fixed .sticky_nav_logo img {
   max-width: 3rem;
 }
 
-/* line 74, ../scss/_meat.scss */
+/* line 156, ../scss/_meat.scss */
+.sticky .top-bar-section {
+  text-align: center;
+}
+/* line 158, ../scss/_meat.scss */
+.sticky .top-bar-section ul#menu-primary {
+  background: transparent;
+  display: inline-block;
+}
+/* line 161, ../scss/_meat.scss */
+.sticky .top-bar-section ul#menu-primary li a {
+  background: transparent;
+}
+/* line 166, ../scss/_meat.scss */
+.sticky ul {
+  text-align: center;
+}
+/* line 169, ../scss/_meat.scss */
 .sticky img {
   max-width: 5rem;
 }
-/* line 77, ../scss/_meat.scss */
+/* line 172, ../scss/_meat.scss */
 .sticky .sticky_nav_logo {
   display: none;
 }
 
-/* line 83, ../scss/_meat.scss */
+/* line 177, ../scss/_meat.scss */
+.reviews {
+  padding-top: 2rem;
+}
+/* line 179, ../scss/_meat.scss */
+.reviews .meat_press {
+  margin-bottom: 2rem;
+}
+
+/* line 185, ../scss/_meat.scss */
 .meat_press img.launch_tab {
   margin-left: .5rem;
   max-width: 1.15rem;
 }
 
-/* line 91, ../scss/_meat.scss */
-.fbf_facebook_page_widget a {
-  color: #ac162c;
+/* line 192, ../scss/_meat.scss */
+.facebook_like_box {
+  background: rgba(218, 223, 225, 0.7);
+  border: transparent;
+  height: 400px;
+  margin-bottom: 1rem;
+  width: inherit;
 }
-/* line 94, ../scss/_meat.scss */
-.fbf_facebook_page_widget .fbf_desc {
-  color: #dadfe1;
+
+/* line 201, ../scss/_meat.scss */
+#content .sponsored {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
 }
-/* line 97, ../scss/_meat.scss */
-.fbf_facebook_page_widget .facebook_page-timestamp {
-  display: inline-block;
-  margin-bottom: .25rem;
+/* line 205, ../scss/_meat.scss */
+#content .sponsored .team_beer {
+  padding: 1rem 3rem;
+}
+/* line 208, ../scss/_meat.scss */
+#content .sponsored .sponsored_break {
+  display: block;
+  font-style: italic;
+  margin: 3rem 0;
+  text-align: center;
+}
+/* line 214, ../scss/_meat.scss */
+#content .sponsored a:hover {
+  background: transparent;
 }
 
 /*
@@ -10374,7 +10503,7 @@ body .show-for-small-only .tab-bar, body .show-for-small-only .contain-to-grid {
 body .show-for-small-only .contain-to-grid {
   border-bottom: 1px solid #dadfe1;
   margin-bottom: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 }
 /* line 25, ../scss/_small.scss */
 body .show-for-small-only .left-small {
@@ -10382,7 +10511,7 @@ body .show-for-small-only .left-small {
 }
 /* line 29, ../scss/_small.scss */
 body .show-for-small-only .tab-bar-section img {
-  width: 100px;
+  width: 150px;
 }
 /* line 35, ../scss/_small.scss */
 body .off-canvas-list .off-canvas-list-logo {
@@ -10438,13 +10567,13 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-/* line 93, ../scss/_small.scss */
+/* line 94, ../scss/_small.scss */
 a, a:visited {
   /*adds highlight on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 107, ../scss/_small.scss */
+/* line 108, ../scss/_small.scss */
 a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -10457,7 +10586,7 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 P STYLES
 ******************************************************************/
-/* line 122, ../scss/_small.scss */
+/* line 123, ../scss/_small.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   /*
   if you're going to use webfonts, be sure to check your weights
@@ -10465,7 +10594,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 129, ../scss/_small.scss */
+/* line 130, ../scss/_small.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
@@ -10473,11 +10602,11 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
 /*********************
 HEADER STYLES
 *********************/
-/* line 158, ../scss/_small.scss */
+/* line 159, ../scss/_small.scss */
 .header {
   margin-bottom: 20px;
 }
-/* line 161, ../scss/_small.scss */
+/* line 162, ../scss/_small.scss */
 .header #inner-header li {
   list-style: none;
 }
@@ -10485,20 +10614,20 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 171, ../scss/_small.scss */
+/* line 172, ../scss/_small.scss */
 .top-bar .title-area {
   z-index: 1;
 }
 
-/* line 177, ../scss/_small.scss */
+/* line 178, ../scss/_small.scss */
 .off-canvas-list ul {
   margin-left: 0;
 }
-/* line 180, ../scss/_small.scss */
+/* line 181, ../scss/_small.scss */
 .off-canvas-list ul li a {
   border-bottom: 0px;
 }
-/* line 184, ../scss/_small.scss */
+/* line 185, ../scss/_small.scss */
 .off-canvas-list ul .dropdown {
   margin-left: 20px;
 }
@@ -10506,13 +10635,13 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 194, ../scss/_small.scss */
+/* line 195, ../scss/_small.scss */
 #content {
   /*adds highlight on hover */
 }
-/* line 196, ../scss/_small.scss */
+/* line 197, ../scss/_small.scss */
 #content a:hover, #content a:focus {
-  background: #d81731;
+  background: #a80d22;
   color: #fff;
 }
 
@@ -10527,13 +10656,13 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 230, ../scss/_small.scss */
+/* line 231, ../scss/_small.scss */
 .byline {
   color: #999;
 }
 
 /* entry content */
-/* line 236, ../scss/_small.scss */
+/* line 237, ../scss/_small.scss */
 .entry-content {
   /*
   image alignment on a screen this size may be
@@ -10542,24 +10671,24 @@ POSTS & CONTENT STYLES
   but it's up to you. Feel free to change it up.
   */
 }
-/* line 270, ../scss/_small.scss */
+/* line 271, ../scss/_small.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 277, ../scss/_small.scss */
+/* line 278, ../scss/_small.scss */
 .entry-content img {
   max-width: 100%;
   height: auto;
 }
-/* line 292, ../scss/_small.scss */
+/* line 293, ../scss/_small.scss */
 .entry-content video, .entry-content object {
   max-width: 100%;
   height: auto;
 }
-/* line 297, ../scss/_small.scss */
+/* line 298, ../scss/_small.scss */
 .entry-content pre {
   background: #eee;
   border: 1px solid #cecece;
@@ -10567,20 +10696,20 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 305, ../scss/_small.scss */
+/* line 306, ../scss/_small.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 311, ../scss/_small.scss */
+/* line 312, ../scss/_small.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 317, ../scss/_small.scss */
+/* line 318, ../scss/_small.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -10594,7 +10723,7 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 354, ../scss/_small.scss */
+/* line 355, ../scss/_small.scss */
 .pagination a:hover {
   color: black;
 }
@@ -10603,17 +10732,17 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-/* line 364, ../scss/_small.scss */
+/* line 365, ../scss/_small.scss */
 #comments {
   /* number of comments span */
 }
 
-/* line 372, ../scss/_small.scss */
+/* line 373, ../scss/_small.scss */
 #respond ul {
   margin-left: 0px;
 }
 
-/* line 387, ../scss/_small.scss */
+/* line 388, ../scss/_small.scss */
 .commentlist {
   /* general comment classes */
   /* vcard */
@@ -10624,7 +10753,7 @@ COMMENT STYLES
   /* comment reply link */
   /* end .commentlist .comment-reply-link */
 }
-/* line 389, ../scss/_small.scss */
+/* line 390, ../scss/_small.scss */
 .commentlist li {
   position: relative;
   clear: both;
@@ -10634,59 +10763,59 @@ COMMENT STYLES
   padding: 0.7335em 10px;
   /* end .commentlist li ul.children */
 }
-/* line 397, ../scss/_small.scss */
+/* line 398, ../scss/_small.scss */
 .commentlist li:last-child {
   margin-bottom: 0;
 }
-/* line 401, ../scss/_small.scss */
+/* line 402, ../scss/_small.scss */
 .commentlist li ul.children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-/* line 419, ../scss/_small.scss */
+/* line 420, ../scss/_small.scss */
 .commentlist li[class*=depth-] {
   margin-top: 1.1em;
 }
-/* line 423, ../scss/_small.scss */
+/* line 424, ../scss/_small.scss */
 .commentlist li.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-/* line 428, ../scss/_small.scss */
+/* line 429, ../scss/_small.scss */
 .commentlist li:not(.depth-1) {
   margin-left: 10px;
   margin-top: 0;
   padding-bottom: 0;
   background: #ac162c;
 }
-/* line 436, ../scss/_small.scss */
+/* line 437, ../scss/_small.scss */
 .commentlist li.depth-3 {
   background: #951326;
 }
-/* line 460, ../scss/_small.scss */
+/* line 461, ../scss/_small.scss */
 .commentlist .vcard {
   margin-left: 50px;
 }
-/* line 463, ../scss/_small.scss */
+/* line 464, ../scss/_small.scss */
 .commentlist .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-/* line 471, ../scss/_small.scss */
+/* line 472, ../scss/_small.scss */
 .commentlist .vcard time {
   float: right;
 }
-/* line 474, ../scss/_small.scss */
+/* line 475, ../scss/_small.scss */
 .commentlist .vcard time a {
   color: #999;
   text-decoration: none;
 }
-/* line 478, ../scss/_small.scss */
+/* line 479, ../scss/_small.scss */
 .commentlist .vcard time a:hover {
   text-decoration: underline;
 }
-/* line 488, ../scss/_small.scss */
+/* line 489, ../scss/_small.scss */
 .commentlist .vcard img.avatar {
   position: absolute;
   left: 10px;
@@ -10694,13 +10823,13 @@ COMMENT STYLES
   border: 1px solid #cecece;
   background: #fff;
 }
-/* line 515, ../scss/_small.scss */
+/* line 516, ../scss/_small.scss */
 .commentlist .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 524, ../scss/_small.scss */
+/* line 525, ../scss/_small.scss */
 .commentlist .comment-reply-link {
   border-style: solid;
   border-width: 0px;
@@ -10719,14 +10848,14 @@ COMMENT STYLES
   padding-left: 1.75rem;
   font-size: 0.8125rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #d81731;
-  border-color: #ad1227;
+  background-color: #a80d22;
+  border-color: #860a1b;
   color: white;
   float: right;
 }
 /* line 131, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
-  background-color: #ad1227;
+  background-color: #860a1b;
 }
 /* line 142, ../../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
@@ -10737,27 +10866,27 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 541, ../scss/_small.scss */
+/* line 542, ../scss/_small.scss */
 .respond-form {
   margin: 1.5em 10px;
   padding-bottom: 2.2em;
 }
-/* line 545, ../scss/_small.scss */
+/* line 546, ../scss/_small.scss */
 .respond-form form {
   margin: 0.75em 0;
 }
-/* line 548, ../scss/_small.scss */
+/* line 549, ../scss/_small.scss */
 .respond-form form li {
   list-style-type: none;
   clear: both;
   margin-bottom: 0.7335em;
 }
-/* line 554, ../scss/_small.scss */
+/* line 555, ../scss/_small.scss */
 .respond-form form li label,
 .respond-form form li small {
   display: none;
 }
-/* line 562, ../scss/_small.scss */
+/* line 563, ../scss/_small.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url],
@@ -10768,14 +10897,14 @@ COMMENT FORM STYLES
   line-height: 1.5em;
   /* form validation */
 }
-/* line 568, ../scss/_small.scss */
+/* line 569, ../scss/_small.scss */
 .respond-form form input[type=text]:focus,
 .respond-form form input[type=email]:focus,
 .respond-form form input[type=url]:focus,
 .respond-form form textarea:focus {
   background: #fff;
 }
-/* line 573, ../scss/_small.scss */
+/* line 574, ../scss/_small.scss */
 .respond-form form input[type=text]:invalid,
 .respond-form form input[type=email]:invalid,
 .respond-form form input[type=url]:invalid,
@@ -10788,14 +10917,14 @@ COMMENT FORM STYLES
   -ms-box-shadow: none;
   box-shadow: none;
 }
-/* line 586, ../scss/_small.scss */
+/* line 587, ../scss/_small.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url] {
   max-width: 400px;
   min-width: 250px;
 }
-/* line 591, ../scss/_small.scss */
+/* line 592, ../scss/_small.scss */
 .respond-form form textarea {
   resize: none;
   width: 97.3%;
@@ -10804,7 +10933,7 @@ COMMENT FORM STYLES
 
 /* comment submit button */
 /* comment form title */
-/* line 604, ../scss/_small.scss */
+/* line 605, ../scss/_small.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -10812,13 +10941,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 617, ../scss/_small.scss */
+/* line 618, ../scss/_small.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 622, ../scss/_small.scss */
+/* line 623, ../scss/_small.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -10826,17 +10955,32 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 640, ../scss/_small.scss */
+/* line 631, ../scss/_small.scss */
+.mobile_contact_section {
+  margin-left: 0rem;
+  text-align: center;
+}
+/* line 634, ../scss/_small.scss */
+.mobile_contact_section li {
+  padding: 0 1rem;
+}
+
+/* line 639, ../scss/_small.scss */
+.facebook_like_box {
+  width: 100%;
+}
+
+/* line 651, ../scss/_small.scss */
 .widget ul {
   margin: 0;
 }
-/* line 643, ../scss/_small.scss */
+/* line 654, ../scss/_small.scss */
 .widget ul li {
   list-style: none;
   /* deep nesting */
 }
 
-/* line 662, ../scss/_small.scss */
+/* line 673, ../scss/_small.scss */
 #sidebar-offcanvas .widgettitle {
   color: #fff;
 }
@@ -10844,7 +10988,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 670, ../scss/_small.scss */
+/* line 681, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 1em;
@@ -10863,7 +11007,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 700, ../scss/_small.scss */
+/* line 711, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -10871,7 +11015,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 708, ../scss/_small.scss */
+/* line 719, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
@@ -10926,7 +11070,6 @@ MEDIUM
   /* line 48, ../scss/_medium.scss */
   .widget {
     padding: 0 10px;
-    margin: 2.2em 0;
   }
 
   /*********************
@@ -10961,23 +11104,10 @@ you can add resource intensive styles.
   /*********************
   GENERAL STYLES
   *********************/
-  /* line 14, ../scss/_large.scss */
-  body {
-    background-color: #2e2925;
-    background-image: url("../images/meat_background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  /* line 21, ../scss/_large.scss */
-  body #sidebar1 .widget {
-    background: rgba(255, 255, 255, 0.3);
-  }
-
   /*********************
   LAYOUT & GRID STYLES
   *********************/
-  /* line 31, ../scss/_large.scss */
+  /* line 18, ../scss/_large.scss */
   .wrap {
     max-width: 1140px;
   }
@@ -10991,12 +11121,12 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 60, ../scss/_large.scss */
+  /* line 47, ../scss/_large.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 68, ../scss/_large.scss */
+  /* line 55, ../scss/_large.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -11021,7 +11151,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 176, ../scss/_large.scss */
+  /* line 163, ../scss/_large.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.

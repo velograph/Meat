@@ -36,7 +36,9 @@
 
 	</head>
 
-	<body <?php body_class(); ?>>
+<?php if(is_page()) { $page_slug = 'page-'.$post->post_name; } ?>
+
+	<body <?php body_class($page_slug); ?>>
 
 	<div class="off-canvas-wrap">
 		<div class="inner-wrap">
@@ -46,7 +48,7 @@
 
 					<div id="inner-header" class="row">
 
-                                          <div class="show-for-medium-up row">
+                                          <div class="show-for-medium-up row header_content">
 
                                             <div class="small-5 columns address_and_hours">
 
@@ -74,7 +76,7 @@
                                               <ul>
                                                 <li>ph: <a href="tel:<?php the_field('phone', '11'); ?>"><?php the_field('phone', '11'); ?></a></li>
                                                 <li>fax: <?php the_field('fax', '11'); ?></li>
-                                                <li><a href="mailto:<?php the_field('email', '11'); ?>"><?php the_field('email', '11'); ?></a></li>
+                                                <li><a href="mailto:<?php the_field('email_obfuscated', '11'); ?>"><?php the_field('email', '11'); ?></a></li>
                                               </ul>
 
                                             </div>

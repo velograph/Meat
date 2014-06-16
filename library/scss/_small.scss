@@ -20,14 +20,14 @@ body {
     .contain-to-grid {
       border-bottom: 1px solid $body-font-color;
       margin-bottom: 1rem;
-      padding-bottom: 4rem;
+      padding-bottom: 6rem;
     }
     .left-small {
       border-right: none !important;
     }
     .tab-bar-section {
       img {
-        width: 100px;
+        width: 150px;
       }
     }
   }
@@ -40,6 +40,7 @@ body {
     }
   }
 }
+
 
 /********************
 WORDPRESS BODY CLASSES
@@ -627,8 +628,18 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {
+.mobile_contact_section {
+  margin-left: 0rem;
+  text-align: center;
+  li {
+    padding: 0 1rem;
+  }
 }
+
+.facebook_like_box {
+  width: 100%;
+}
+
 
 	#searchsubmit {
 	}

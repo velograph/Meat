@@ -1,13 +1,56 @@
-#inner-header,
-#contact {
+body {
+  background-color: $body-bg;
+  background-image: url('../images/meat_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  #sidebar1 {
+    .widget {
+      .widgettitle {
+        font-family: 'Montserrat';
+      }
+    }
+  }
+}
+
+abbr {
+  cursor: default;
+}
+
+.left-off-canvas-menu {
+  text-align: center;
+  a {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-size: rem-calc(16);
+  }
+}
+
+.inner-wrap {
+  background: rgba(0,0,0,.5);
+}
+
+.header_content {
+  padding: 1rem 0;
+}
+
+#contact,
+.contact_links {
   ul {
     list-style-type: none;
+  }
+}
+
+.contact_links {
+  margin: 2rem 0;
+  ul {
+    margin: 0;
   }
 }
 
 #inner-header,
 #footer_branding {
   ul {
+    list-style-type: none;
     margin-bottom: .25rem;
     li {
       font-size: .8rem;
@@ -25,20 +68,46 @@
   }
 }
 
-.home_page_thumb {
-  padding: 0 5rem;
+.home_page_gallery {
+  margin-bottom: 2rem;
 }
 
-#content {
-  .food_brands {
-    text-align: center;
-    a:hover {
-      background: transparent;
+.inline_meat {
+  background-image: url('../images/meat_inline_logo.svg');
+  background-repeat: no-repeat;
+  color: transparent;
+  display: inline;
+  vertical-align: baseline;
+}
+
+.page-food {
+  #content {
+    .raw_food,
+    .dry_food {
+      margin-bottom: 2rem;
     }
-    img {
-      margin: .75rem 1.25rem 2rem;
-      width: 100px;
+    .food_brands {
+      ul {
+        float: left;
+        margin: 0;
+        width: 50%;
+        li {
+          display: block;
+          padding-left: 1rem;
+        }
+      }
     }
+  }
+}
+
+.supporter_list {
+  margin-top: 2rem;
+  h3 {
+    margin-bottom: 1rem;
+  }
+  .supporter {
+    font-size: .65rem;
+    margin: 0 0 1rem;
   }
 }
 
@@ -50,10 +119,23 @@
   }
 }
 
+.sticky.fixed,
+.sticky {
+  .top-bar {
+    background: rgba(135,16,32,.95);
+  }
+}
+
 .sticky.fixed {
   .top-bar-section {
     ul {
+      background: transparent;
       display: inline-block;
+      li {
+        a {
+          background: transparent;
+        }
+      }
     }
   }
   img {
@@ -71,11 +153,31 @@
 }
 
 .sticky {
+  .top-bar-section {
+    text-align: center;
+    ul#menu-primary {
+      background: transparent;
+      display: inline-block;
+      li a {
+        background: transparent;
+      }
+    }
+  }
+  ul {
+    text-align: center;
+  }
   img {
     max-width: 5rem;
   }
   .sticky_nav_logo {
     display: none;
+  }
+}
+
+.reviews {
+  padding-top: 2rem;
+  .meat_press {
+    margin-bottom: 2rem;
   }
 }
 
@@ -87,15 +189,30 @@
 }
 
 // Facebook
-.fbf_facebook_page_widget {
-  a {
-    color: $secondary-color;
-  }
-  .fbf_desc {
-    color: #dadfe1;
-  }
-  .facebook_page-timestamp {
-    display: inline-block;
-    margin-bottom: .25rem;
+.facebook_like_box {
+  background: rgba(218,223,225,.7);
+  border: transparent;
+  height: 400px;
+  margin-bottom: 1rem;
+  width: inherit;
+}
+
+#content {
+  .sponsored {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    .team_beer {
+      padding: 1rem 3rem;
+    }
+    .sponsored_break {
+      display: block;
+      font-style: italic;
+      margin: 3rem 0;
+      text-align: center;
+    }
+    a:hover {
+      background: transparent;
+    }
   }
 }

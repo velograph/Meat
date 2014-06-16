@@ -15,7 +15,6 @@ Template Name: Contact
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                                             <?php the_content(); ?>
-					
                                               <ul>
                                                 <li><?php the_field('address'); ?></li>
                                                 <li><?php the_field('address_line_2'); ?></li>
@@ -25,7 +24,8 @@ Template Name: Contact
                                               </ul>
                                                 <li><a href="tel:<?php the_field('phone'); ?>"><?php the_field('phone'); ?></a></li>
                                                 <li><?php the_field('fax'); ?></li>
-                                                <li><a href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a></li>
+test
+                                                <li><a href="mailto:<?php the_field('email_obfuscated'); ?>"><?php the_field('email'); ?></a></li>
                                               </ul>
 
 					    					
@@ -35,8 +35,37 @@ Template Name: Contact
     
 				    <?php get_sidebar(); ?>
 				    
+					
 				</div> <!-- end #inner-content -->
     
+                                    <?php
+
+                                       $args = array('pagename' => 'links');
+                                          $query = new WP_Query($args);
+
+                                          if($query->have_posts()) : ?>
+
+                                          <?php while($query->have_posts()) : 
+
+                                          $query->the_post();
+                                    ?>
+
+                                      <div class="row">
+
+                                        <div class="small-12 columns contact_links">
+
+                                          <h3><?php the_title(); ?></h3>
+                                          <?php the_content() ?>
+
+                                        </div>
+
+                                      </div>
+                                          
+                                    <?php
+                                        endwhile;
+                                        endif;
+                                        wp_reset_query();
+                                    ?>
 			</div> <!-- end #content -->
 
 <?php get_footer(); ?>

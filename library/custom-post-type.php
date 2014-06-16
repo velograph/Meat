@@ -54,20 +54,20 @@ function custom_post_example() {
 	 	// let's now add all the options for this post type
 		array('labels' => array(
 			'name' => __('Supporters', 'jointstheme'), /* This is the Title of the Group */
-			'singular_name' => __('Custom Post', 'jointstheme'), /* This is the individual type */
-			'all_items' => __('All Custom Posts', 'jointstheme'), /* the all items menu item */
+			'singular_name' => __('Supporter', 'jointstheme'), /* This is the individual type */
+			'all_items' => __('All Supporters', 'jointstheme'), /* the all items menu item */
 			'add_new' => __('Add New', 'jointstheme'), /* The add new menu item */
-			'add_new_item' => __('Add New Custom Type', 'jointstheme'), /* Add New Display Title */
+			'add_new_item' => __('Add New Supporter', 'jointstheme'), /* Add New Display Title */
 			'edit' => __( 'Edit', 'jointstheme' ), /* Edit Dialog */
-			'edit_item' => __('Edit Post Types', 'jointstheme'), /* Edit Display Title */
-			'new_item' => __('New Post Type', 'jointstheme'), /* New Display Title */
-			'view_item' => __('View Post Type', 'jointstheme'), /* View Display Title */
-			'search_items' => __('Search Post Type', 'jointstheme'), /* Search Custom Type Title */ 
+			'edit_item' => __('Edit this Supporter', 'jointstheme'), /* Edit Display Title */
+			'new_item' => __('New Supporter', 'jointstheme'), /* New Display Title */
+			'view_item' => __('View Supporter', 'jointstheme'), /* View Display Title */
+			'search_items' => __('Search Supporters', 'jointstheme'), /* Search Custom Type Title */ 
 			'not_found' =>  __('Nothing found in the Database.', 'jointstheme'), /* This displays if there are no entries yet */ 
 			'not_found_in_trash' => __('Nothing found in Trash', 'jointstheme'), /* This displays if there is nothing in the trash */
 			'parent_item_colon' => ''
 			), /* end of arrays */
-			'description' => __( 'This is the example custom post type', 'jointstheme' ), /* Custom Type Description */
+			'description' => __( 'These are the supporters', 'jointstheme' ), /* Custom Type Description */
 			'public' => true,
 			'publicly_queryable' => true,
 			'exclude_from_search' => false,

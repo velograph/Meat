@@ -169,6 +169,7 @@ function joints_theme_support() {
 
 	// default thumb size
 	//set_post_thumbnail_size(125, 125, true);
+        add_image_size( 'home_page_gallery', 670, 350, false );
 
 	// rss 
 	add_theme_support('automatic-feed-links');
